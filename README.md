@@ -1,1 +1,1 @@
-# setup-computer
+# Setup computer
