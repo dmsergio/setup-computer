@@ -1,0 +1,17 @@
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+export CLICOLOR=1
+alias ls='ls -G'
+alias ll='ls -laG'
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash" || true
+
+eval "$(/usr/local/bin/brew shellenv)"
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+eval "$(oh-my-posh init bash --config /usr/local/opt/oh-my-posh/themes/onehalf.minimal.omp.json)"
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
