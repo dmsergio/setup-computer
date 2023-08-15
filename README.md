@@ -90,3 +90,14 @@ brew install bash
     echo -e 'eval "$(oh-my-posh init bash --config /usr/local/opt/oh-my-posh/themes/{theme_name}.json)"' >> ~/.bash_profile
     source ~/.bash_profile
     ```
+
+- To show Python virtual environment on your prompt, you should add the following code in the first segment of the theme you are using.
+
+    ```json
+    {
+        "type": "python",
+        "style": "plain",
+        "foreground": "yellow",
+        "template": " \uE235 ({{ .Venv }}) {{ .Full }} "
+    }
+    ```
