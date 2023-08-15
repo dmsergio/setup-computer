@@ -101,3 +101,23 @@ brew install bash
         "template": " \uE235 ({{ .Venv }}) {{ .Full }} "
     }
     ```
+
+---
+
+### VS Code
+
+- Extensions
+
+    - tamasfe.even-better-toml
+    - ms-azuretools.vscode-docker
+    - eamodio.gitlens
+    - ms-kubernetes-tools.vscode-kubernetes-tools
+    - ms-vscode.makefile-tools
+    - PKief.material-icon-theme
+    - monokai.theme-monokai-pro-vscode
+    - ms-python.python
+    - redhat.vscode-yaml
+    - vscode-icons-team.vscode-icons
+    - mechatroner.rainbow-csv
+
+- You can show the settings file [here](./vscode/settings.json).

@@ -1,0 +1,49 @@
+{
+    // system
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSaveDelay": 2000,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.pyc": {"when": "$(basename).py"},
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+    },
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "none",
+
+    // themes
+    "workbench.colorTheme": "Monokai Classic",
+    "workbench.iconTheme": "material-icon-theme",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorCustomizations": {
+        "terminalCursor.foreground": "#E5C07B"
+    },
+
+    // editor
+    "editor.fontSize": 14,
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "boundary",
+
+    // terminal
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+    "terminal.integrated.shellIntegration.history": 500,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.copyOnSelection": true,
+
+    // languages
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.guides.indentation": true,
+        "editor.rulers": [79, 88],
+    },
+}
