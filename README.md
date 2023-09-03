@@ -33,10 +33,10 @@ brew install bash
 
 ### Auto completion for __bash__ and __Docker__:
 
-    ```shell
-    brew install bash-completion
-    brew install docker-completion
-    ```
+```shell
+brew install bash-completion
+brew install docker-completion
+```
 ---
 
 ### __Pyenv__
