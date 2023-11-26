@@ -119,6 +119,6 @@ brew install docker-completion
     - redhat.vscode-yaml
     - vscode-icons-team.vscode-icons
     - mechatroner.rainbow-csv
-    - william-voyek.vscode-nginx
+    - ahmadalli.vscode-nginx-conf
 
 - You can show the settings file [here](./vscode/settings.json).
