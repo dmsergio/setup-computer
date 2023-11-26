@@ -15,7 +15,7 @@ Install it with the following command.
 ```
 ---
 
-### __Git__
+### Git
 
 ```shell
 brew install git
@@ -23,7 +23,7 @@ brew install git
 
 ---
 
-### Install last version of __bash__:
+### Install last version of bash:
 
 ```shell
 brew install bash
@@ -31,7 +31,7 @@ brew install bash
 
 ---
 
-### Auto completion for __bash__ and __Docker__:
+### Auto completion for bash and Docker:
 
 ```shell
 brew install bash-completion
@@ -39,7 +39,7 @@ brew install docker-completion
 ```
 ---
 
-### __Pyenv__
+### Pyenv
 
 - Install dependencies:
 
@@ -119,5 +119,6 @@ brew install docker-completion
     - redhat.vscode-yaml
     - vscode-icons-team.vscode-icons
     - mechatroner.rainbow-csv
+    - william-voyek.vscode-nginx
 
 - You can show the settings file [here](./vscode/settings.json).
