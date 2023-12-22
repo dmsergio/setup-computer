@@ -48,11 +48,12 @@
         "--profile", "black",
         "--line-length", "120",
         "--force-single-line-imports",
-        "--known-local-folder", "securitas_project"
+        "--known-local-folder", "your_project_root_folder"
     ],
 
     // languages
     "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true,
         "editor.formatOnSave": false,
         "editor.guides.indentation": true,
