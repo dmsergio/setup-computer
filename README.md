@@ -108,17 +108,19 @@ brew install docker-completion
 
 - Extensions
 
-    - tamasfe.even-better-toml
-    - ms-azuretools.vscode-docker
-    - eamodio.gitlens
-    - ms-kubernetes-tools.vscode-kubernetes-tools
-    - ms-vscode.makefile-tools
+    - KevinRose.vsc-python-indent
     - PKief.material-icon-theme
-    - monokai.theme-monokai-pro-vscode
-    - ms-python.python
-    - redhat.vscode-yaml
-    - vscode-icons-team.vscode-icons
-    - mechatroner.rainbow-csv
     - ahmadalli.vscode-nginx-conf
+    - eamodio.gitlens
+    - mechatroner.rainbow-csv
+    - monokai.theme-monokai-pro-vscode
+    - ms-azuretools.vscode-docker
+    - ms-python.black-formatter
+    - ms-python.isort
+    - ms-python.python
+    - ms-python.vscode-pylance
+    - redhat.vscode-yaml
+    - tamasfe.even-better-toml
+    - vscode-icons-team.vscode-icon
 
 - You can show the settings file [here](./vscode/settings.json).

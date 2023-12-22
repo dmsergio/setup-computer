@@ -13,7 +13,7 @@
         "**/Thumbs.db": true,
         "**/*.pyc": {"when": "$(basename).py"},
         "**/__pycache__": true,
-        "**/.pytest_cache": true,
+        "**/.pytest_cache": true
     },
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 1,
@@ -27,11 +27,6 @@
         "terminalCursor.foreground": "#E5C07B"
     },
 
-    // editor
-    "editor.fontSize": 14,
-    "editor.mouseWheelZoom": true,
-    "editor.renderWhitespace": "boundary",
-
     // terminal
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
@@ -40,10 +35,30 @@
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.copyOnSelection": true,
 
+    // editor
+    "editor.fontSize": 14,
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "black-formatter.args": [
+        // "--line-length=200",
+    ],
+    "isort.args": [
+        "--profile", "black",
+        "--line-length", "120",
+        "--force-single-line-imports",
+        "--known-local-folder", "securitas_project"
+    ],
+
     // languages
     "[python]": {
         "editor.formatOnType": true,
+        "editor.formatOnSave": false,
         "editor.guides.indentation": true,
         "editor.rulers": [79, 88],
-    },
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    }
 }
