@@ -16,6 +16,8 @@
         "**/.pytest_cache": true
     },
     "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
     "window.zoomLevel": 1,
     "workbench.startupEditor": "none",
 
