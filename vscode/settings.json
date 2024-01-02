@@ -49,6 +49,7 @@
     "isort.args": [
         "--profile", "black",
         "--line-length", "120",
+        "--lines-after-imports", "2",
         "--force-single-line-imports",
         "--known-local-folder", "your_project_root_folder"
     ],
