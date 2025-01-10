@@ -3,6 +3,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export CLICOLOR=1
 alias ls='ls -G'
 alias ll='ls -laG'
+alias apt-up='sudo apt update && sudo apt upgrade'
+alias rm='rm -iv'
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash" || true
 
