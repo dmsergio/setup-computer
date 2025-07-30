@@ -21,6 +21,18 @@ Install it with the following command.
 brew install git
 ```
 
+#### Config
+
+```shell
+[user]
+	name =
+	email =
+[merge]
+	tool = meld
+[mergetool "meld"]
+	path = /Applications/Meld.app/Contents/MacOS/meld
+```
+
 ---
 
 ### Install last version of bash:
