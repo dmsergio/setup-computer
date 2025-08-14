@@ -23,12 +23,23 @@ brew install git
 
 #### Config
 
+```
+git config set --global user.name "Sergio Díaz"
+git config set --global user.email "...@..."
+git config set --global merge.tool meld
+git config set --global core.editor "code --wait"
+```
+
 ```shell
+# ~/.gitconfig example file
+
 [user]
 	name =
 	email =
+
 [merge]
 	tool = meld
+
 [mergetool "meld"]
 	path = /Applications/Meld.app/Contents/MacOS/meld
 ```
