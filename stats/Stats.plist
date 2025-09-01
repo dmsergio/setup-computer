@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Battery_position</key>
+	<integer>6</integer>
 	<key>Battery_state</key>
 	<false/>
+	<key>Bluetooth_position</key>
+	<integer>7</integer>
 	<key>CPU_barChart_position</key>
 	<integer>3</integer>
 	<key>CPU_label_position</key>
@@ -24,6 +28,8 @@
 	<integer>1</integer>
 	<key>CPU_pieChart_position</key>
 	<integer>4</integer>
+	<key>CPU_position</key>
+	<integer>0</integer>
 	<key>CPU_tachometer_position</key>
 	<integer>5</integer>
 	<key>CPU_updateInterval</key>
@@ -32,6 +38,16 @@
 	<integer>5</integer>
 	<key>CPU_widget</key>
 	<string>line_chart</string>
+	<key>Clock_position</key>
+	<integer>8</integer>
+	<key>CombinedModules</key>
+	<true/>
+	<key>CombinedModules_popup</key>
+	<true/>
+	<key>CombinedModules_separator</key>
+	<true/>
+	<key>CombinedModules_spacing</key>
+	<string>1</string>
 	<key>Disk_barChart_position</key>
 	<integer>3</integer>
 	<key>Disk_base</key>
@@ -48,6 +64,8 @@
 	<integer>6</integer>
 	<key>Disk_pieChart_position</key>
 	<integer>4</integer>
+	<key>Disk_position</key>
+	<integer>3</integer>
 	<key>Disk_speed_displayValue</key>
 	<string>oi</string>
 	<key>Disk_speed_icon</key>
@@ -64,12 +82,54 @@
 	<integer>7</integer>
 	<key>Disk_widget</key>
 	<string>speed</string>
+	<key>GPU_position</key>
+	<integer>1</integer>
+	<key>LaunchAtLoginNext</key>
+	<true/>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{807, 448}</string>
+	<key>NSNavPanelExpandedStateForSaveMode</key>
+	<true/>
+	<key>NSOSPLastRootDirectory</key>
+	<data>
+	Ym9va2QDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAIA
+	AAQAAAADAwAAAAQAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHNlcmdpbwAACAAAAAEB
+	AABwcm9qZWN0cwQAAAABAQAAbWlzYw4AAAABAQAAc2V0dXAtY29tcHV0ZXIAAAUAAAAB
+	AQAAc3RhdHMAAAAYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABMAAAAZAAAAAgAAAAEAwAA
+	oTgAAAAAAAAIAAAABAMAANJeAAAAAAAACAAAAAQDAACtPAoAAAAAAAgAAAAEAwAA7T4K
+	AAAAAAAIAAAABAMAAN3OCgAAAAAACAAAAAQDAACsQiMBAAAAABgAAAABBgAAlAAAAKQA
+	AAC0AAAAxAAAANQAAADkAAAACAAAAAAEAABBxzLfkGls1xgAAAABAgAAAgAAAAAAAAAf
+	AgAAAAAAAB8CAAAAAAAAAAAAAAEFAAAIAAAABAMAAAQAAAAAAAAABAAAAAMDAAD1AQAA
+	CAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA4AHj6AAA
+	AAgAAAAABAAAQccohIaAAAAkAAAAAQEAADRDMzVGQkIzLTRFNDktNDk5RS05RDgzLThD
+	RjlENzlFNTUxRBgAAAABAgAAgQAAAAEAAADvEwAAAQAAAO8TAAABAAAAAQAAAAEBAAAv
+	AAAAMAAAAAECAABkbmliAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAByZGxm
+	AgAAAAAAAADwAAAA/v///wEAAAAAAAAAEwAAAAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAA
+	ABAQAAAkAQAAAAAAAEAQAAAUAQAAAAAAAAIgAAD4AQAAAAAAAAUgAABoAQAAAAAAABAg
+	AAB4AQAAAAAAABEgAACsAQAAAAAAABIgAACMAQAAAAAAABMgAACcAQAAAAAAACAgAADY
+	AQAAAAAAADAgAABEAQAAAAAAAAHAAABMAQAAAAAAABHAAAAgAAAAAAAAABLAAABcAQAA
+	AAAAAAHQAABEAQAAAAAAABDQAAAEAAAAAAAAABfwAABkAAAAAAAAACLwAAAEAgAAAAAA
+	AA==
+	</data>
+	<key>NSToolbar Configuration eu.exelban.Stats.Settings.Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>1065 952 430 163 0 0 2560 1415 </string>
+	<string>876 667 807 448 0 0 2560 1415 </string>
 	<key>Network_base</key>
 	<string>byte</string>
 	<key>Network_interface</key>
 	<string>en0</string>
+	<key>Network_position</key>
+	<integer>5</integer>
 	<key>Network_publicIP</key>
 	<true/>
 	<key>Network_reader</key>
@@ -98,6 +158,8 @@
 	<integer>4</integer>
 	<key>RAM_pieChart_position</key>
 	<integer>2</integer>
+	<key>RAM_position</key>
+	<integer>2</integer>
 	<key>RAM_splitValue</key>
 	<true/>
 	<key>RAM_tachometer_position</key>
@@ -110,6 +172,8 @@
 	<integer>5</integer>
 	<key>RAM_widget</key>
 	<string>bar_chart</string>
+	<key>Sensors_position</key>
+	<integer>4</integer>
 	<key>runAtLoginInitialized</key>
 	<true/>
 	<key>sensor_Average CPU_notification</key>
@@ -130,10 +194,12 @@
 	<string></string>
 	<key>setupProcess</key>
 	<true/>
+	<key>support_ts</key>
+	<integer>1756727239</integer>
 	<key>telemetry</key>
 	<false/>
 	<key>updater_check_ts</key>
-	<integer>1756708855</integer>
+	<integer>1756743226</integer>
 	<key>version</key>
 	<string>2.11.52</string>
 </dict>
